@@ -1,0 +1,29 @@
+body{
+background: linear-gradient(to right, #09203f 0%, #537895 100%);
+}
+.box{
+  height: 200px;
+  width: 200px;
+  background-color: #FDFCFB;
+  color: rgb(110, 11, 209);
+  padding: 5px ;
+  margin:100px 0 0 500px;
+  border-radius: 20px;
+  border-color: black;
+  font-size: 150px;
+  text-align: center;
+  padding-top: 5px;
+}
+.buttons{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  gap: 40px;
+  border-radius: 5px;
+
+}
+button{
+  background-color:blanchedalmond;
+  font-size: medium;
+  font-weight: bolder;
+}

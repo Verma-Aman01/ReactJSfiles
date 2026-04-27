@@ -1,0 +1,81 @@
+
+.parent{
+  height: 220px;
+  width: 200px;
+  border: 1px solid black;
+  gap: 20px;
+  padding: 10px;
+  margin:20px;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+body{
+  background-color: black;
+}
+
+.top
+{
+  display:flex ;
+  text-align: center;
+  justify-content: space-between;
+
+}
+.logo
+{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+
+}
+.time
+{
+ font-size: 11px;
+ font-weight: lighter;
+ color: black(255, 255, 255, 0.265);
+
+}
+.center .company{
+ color: black;
+ font-size: 30px;
+ font-weight: bolder;
+}
+.post
+{
+  font-size: 15px;
+  color: black;
+  font-weight: 800;
+}
+.buttons button{
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: rgba(184, 158, 158, 0.166);
+  border: 2px solid rgba(179, 152, 152, 0.253);
+
+}
+.bottom
+{
+  display: flex;
+justify-content: space-between;
+}
+.bottom h6{
+  color: rgba(152, 168, 168, 0.259);
+
+}
+.location{
+  font-size: 8px;
+  color:rgb(62, 58, 58) ;
+}
+.bottom button{
+  font-size: 10px;
+  margin: 20px;
+  align-content: center;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.cards
+{
+  display: flex;
+  flex-wrap: wrap;
+}
