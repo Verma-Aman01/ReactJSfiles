@@ -11,15 +11,16 @@ const App = () => {
     settask(prev => [...prev, { title, detail }]);
     setTitle('');
     setDetail('');
-  const removeNote=(idx)=>{
+    
+  }
+    const removeNote=(index)=>{
     const copyTask = [...task];
-    copyTask.splice(idx,1);
+    copyTask.splice(index,1);
     settask(copyTask);
 
   }
     
-    
-  }
+
   return (
     <div className='h-screen flex bg-black lg:flex' >
       <div className=' lg:w-1/2 h-screen p-10 '>
